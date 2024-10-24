@@ -15,17 +15,20 @@ This app tracks a user's location (latitude and longitude) using the browser's G
 ## Composer install
 
 
-3. Install React dependencies:
+3. Create a database position_tracker
+4. Import import database file position_tracker.sql 
+
+5. Install React dependencies:
 npm install
 
-4. Set up .env for Laravel, including database connection.
-5. Run migrations:
+6. Set up .env for Laravel, including database connection.
+7. Run migrations:
 php artisan migrate
 
-6. Start the backend server:
+8. Start the backend server:
 php artisan serve
 
-7. Start the frontend React server:
+9. Start the frontend React server:
 npm start
 
 ## API Endpoints
